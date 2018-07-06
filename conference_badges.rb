@@ -12,7 +12,4 @@ def batch_badge_creator(name)
     badges[count]
     count += 1
   end
-  badges.each do |name|
-    "#{name}"
-
 end
