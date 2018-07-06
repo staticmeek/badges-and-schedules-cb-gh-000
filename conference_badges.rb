@@ -6,4 +6,6 @@ end
 
 def batch_badge_creator(name)
   speakers = name.size
+  conference_badges = []
+  while conference_badges < speakers
 end
