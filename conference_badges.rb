@@ -7,5 +7,5 @@ end
 
 def batch_badge_creator(name)
   counter = 1
-  badge_maker(name).each 
+  badge_maker(name).each
 end
