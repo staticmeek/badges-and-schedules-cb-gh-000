@@ -8,6 +8,6 @@ def batch_badge_creator(name)
   speakers = name.size
   conference_badges = []
   while conference_badges.size < speakers
-    badge_maker(name) << conference_badges
+    badge_maker(name) << conference_badges[badge_maker(name)]
   end
 end
