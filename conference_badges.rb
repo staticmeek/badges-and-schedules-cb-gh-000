@@ -7,4 +7,5 @@ end
 
 def batch_badge_creator(attendees)
   counter = name.size
+  binding.pry
 end
