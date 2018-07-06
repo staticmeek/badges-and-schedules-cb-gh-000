@@ -5,6 +5,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  counter = 0
+  counter = 1
   badges = [badge_maker(name)]
 end
