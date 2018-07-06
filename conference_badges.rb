@@ -5,11 +5,6 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(name)
-  badges = []
-  count = 0
-  while count <= attendees.length-1
-    badges = [badge_maker(name)]
-    badges[count]
-    count += 1
-  end
+  counter = 0
+  badges = [badge_maker(name)]
 end
