@@ -8,7 +8,7 @@ end
 def batch_badge_creator(attendees)
   counter = attendees.size
   badges = []
-  while counter > badges.size
+  while counter < badges.size
     badges << badge_maker(name)
   end
   binding.pry
